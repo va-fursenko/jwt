@@ -2,7 +2,6 @@
 
 namespace JWT\Middleware;
 
-
 use Closure;
 use HttpException;
 use JWT\Exception\JWTException;
@@ -17,7 +16,7 @@ use Throwable;
  *
  * JWT authentication Laravel middleware
  *
- * @project jwt
+ * @project viktorf/jwt
  * @date 20.07.2020 13:52
  * @author Viktor.Fursenko
  */
