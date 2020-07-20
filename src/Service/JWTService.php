@@ -2,7 +2,6 @@
 
 namespace JWT\Service;
 
-use Symfony\Component\HttpFoundation\Request;
 use JWT\Exception\JWTException;
 
 /**

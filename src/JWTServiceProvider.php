@@ -15,7 +15,7 @@ use Patrikap\Hmac\Console\Commands\HmacGenerateCommand;
  *
  * Laravel service-provider for JWTService & JWTReceiver
  *
- * @project jwt
+ * @project viktorf/jwt
  * @date 20.07.2020 16:29
  * @author Viktor.Fursenko
  */
