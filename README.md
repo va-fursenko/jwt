@@ -11,7 +11,7 @@ All classes in `JWT\Service` can be extended to expand their logic.
 
 For example, you can replace `JWTReceiver` & `JWTService` in middleware constructor with their descendants using DI.
 
-##using
+## using
 
 ```php
 $secret = 'some jwt secret';
@@ -36,7 +36,7 @@ try {
 }
 ```
 
-##extending
+## extending
 ```php
 class ExtraJWTPayload extends \JWT\Service\JWTPayload
 {
