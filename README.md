@@ -1,5 +1,6 @@
 # jwt
 Simple Laravel/Symfony JWT authorization service
+@see https://packagist.org/packages/viktorf/jwt
 
 ## installation
 ```bash
