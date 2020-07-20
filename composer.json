@@ -1,0 +1,25 @@
+{
+    "name": "viktorf/jwt",
+    "version": "1.0.0",
+    "description": "Laravel/Symfony JWT authorization service",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Viktor Fursenko",
+            "email": "va.fursenko@yandex.ru"
+        }
+    ],
+    "minimum-stability": "stable",
+    "autoload": {
+        "psr-4": {
+            "JWT\\": "src/"
+        }
+    },
+    "require": {
+        "symfony/http-foundation": "^5.0"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "^9.2"
+    }
+}
