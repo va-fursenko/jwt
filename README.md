@@ -5,10 +5,13 @@ Simple Laravel/Symfony JWT authorization service
 ```bash
 composer require viktorf/jwt
 ``` 
-For Laravel just add `JWT\JWTServiceProvider` to proper section of `config/app.php` and use `AuthenticateWithJWT` middleware
+For Laravel just add `JWT\JWTServiceProvider` to proper section of `config/app.php` or register it in `AppServiceProvider.php` 
+and then use `AuthenticateWithJWT` middleware. After `JWTServiceProvider` registration you can publish vendor config:
+```bash
+php artisan vendor:publish --provider="JWT\JWTServiceProvider" --tag="config"
+``` 
 
 All classes in `JWT\Service` can be extended to expand their logic.
-
 For example, you can replace `JWTReceiver` & `JWTService` in middleware constructor with their descendants using DI.
 
 ## using

@@ -19,7 +19,7 @@ use JWT\Exception\JWTException;
  */
 class JWTService
 {
-    protected const ALGORITHM_HS256 = 'HS256';
+    public const ALGORITHM_HS256 = 'HS256';
 
     /**
      * Supported hash algorithms
